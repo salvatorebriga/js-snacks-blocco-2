@@ -6,6 +6,7 @@ const vett2 = [];
 let n1 = Math.floor(Math.random() * 20);
 let n2 = Math.floor(Math.random() * 20);
 
+console.log('pre:');
 
 for (let i = 0; i < n1;  i++){
     vett1[i] = i; 
@@ -24,10 +25,10 @@ console.log('post:');
 
 while(n1 !== n2){
     if(n1 <= n2){
-        vett1[n1] = n1;
+        vett1[n1] = 'Add: ' + n1;
         n1++
     }else if(n2 <= n1){
-        vett2[n2] = n2;
+        vett2[n2] = 'Add: ' + n2;
         n2++;
     }
 }
