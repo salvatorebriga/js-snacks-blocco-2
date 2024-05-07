@@ -21,7 +21,9 @@ for (let i = 0; i < n2;  i++){
 
 console.log(vett2);
 
-console.log('post:');
+console.log('SOLUZIONE 1:');
+
+/* SOLUZIONE 1 */
 
 while(n1 !== n2){
     if(n1 <= n2){
@@ -32,6 +34,18 @@ while(n1 !== n2){
         n2++;
     }
 }
+
+/*
+console.log('SOLUZIONE 2:');*/
+
+ /* SOLUZIONE 2 */
+
+ /*
+if(n1 < n2){
+    vett1 = vett2;
+}else if(n2 < n1){
+    vett2 = vett1;
+}*/
 
 console.log(vett1);
 console.log(vett2);
